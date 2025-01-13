@@ -1,0 +1,116 @@
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local GUI = Mercury:Create{
+    Name = "AdonisK1ller by xz03404",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
+
+local function silentExecuteCommand(command)
+    local prefix = ":"
+    local textbox = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")
+    if textbox then
+        textbox:CaptureFocus()
+        textbox.Text = prefix .. command
+        textbox:ReleaseFocus(true)
+    end
+end
+
+-- **Abusive Commands Tab**
+local AbuseTab = GUI:Tab{
+    Name = "Abusive Commands",
+    Icon = "rbxassetid://4483345998"
+}
+
+local abuseCommands = {
+    {Name = "Loud Music", Command = "music 16190757458 | :volume inf | :pitch 0.8"},
+    {Name = "Server Crasher", Command = "repeat inf 0 clone all 50"},
+    {Name = "Destruction", Command = "fire all | :m HAHAHAHAHAHA | :spook all | :clearadonisguis others true | :char all ScriptProbr | :re all | :name all HAHAHHAAHHA"},
+    {Name = "Thermal and Punish", Command = "thermal all | :punish all"},
+    {Name = "Incognito All", Command = "incognito all | :time 120"},
+    {Name = "Unrank All", Command = "unrank all"},
+    {Name = "UnLogs All", Command = "clearadonisguis others true"},
+    {Name = "Dizzy All", Command = "dizzy all 100"},
+    {Name = "Vibrate All", Command = "vibrate all 100"},
+    {Name = "Night", Command = "time 0"}
+}
+
+for _, cmd in pairs(abuseCommands) do
+    AbuseTab:Button{
+        Name = cmd.Name,
+        Callback = function() silentExecuteCommand(cmd.Command) end
+    }
+end
+
+-- **Server Commands Tab**
+local ServerTab = GUI:Tab{
+    Name = "Server Commands",
+    Icon = "rbxassetid://4483345998"
+}
+
+local serverCommands = {
+    {Name = "Server Lock", Command = "slock"},
+    {Name = "Ban All", Command = "ban all"},
+    {Name = "Shutdown", Command = "sm Server Being Shutdown..."},
+    {Name = "Broadcast", Command = "broadcast Join team m4telords today!"},
+    {Name = "Crash All", Command = "gpucrash all"}
+}
+
+for _, cmd in pairs(serverCommands) do
+    ServerTab:Button{
+        Name = cmd.Name,
+        Callback = function() silentExecuteCommand(cmd.Command) end
+    }
+end
+
+-- **Announcement Commands Tab**
+local AnnouncementTab = GUI:Tab{
+    Name = "Announcement Commands",
+    Icon = "rbxassetid://4483345998"
+}
+
+AnnouncementTab:Textbox{
+    Name = "Custom Broadcast",
+    Callback = function(text) silentExecuteCommand("broadcast " .. text) end
+}
+
+local announcementCommands = {
+    {Name = "ServerMessage All", Command = "sm DID YOU THINK YOU COULD ESCAPE FROM THE M4TELORDS?!"},
+    {Name = "Broadcast All", Command = "broadcast SWEEP SWEEP SWEEP! script made by scriptprobr"},
+    {Name = "RBXNotify All", Command = "rbxnotify all 3000 M4TELORDS NEVER GIVE UP THE THRONE"},
+    {Name = "MateLord Message All", Command = "cn M4TELORDS ZOOOOOM!!!"}
+}
+
+for _, cmd in pairs(announcementCommands) do
+    AnnouncementTab:Button{
+        Name = cmd.Name,
+        Callback = function() silentExecuteCommand(cmd.Command) end
+    }
+end
+
+-- **Sounds Tab**
+local MusicTab = GUI:Tab{
+    Name = "Sounds",
+    Icon = "rbxassetid://4483345998"
+}
+
+local musicCommands = {
+    {Name = "N-Word Sound", Command = "music 5986485937 | :volume 100"},
+    {Name = "c00lkidd reborn theme", Command = "music 1847661821 | :volume 100"},
+    {Name = "2006 Ambience (horror)", Command = "music 4504108959 | :volume 100"}
+}
+
+for _, cmd in pairs(musicCommands) do
+    MusicTab:Button{
+        Name = cmd.Name,
+        Callback = function() silentExecuteCommand(cmd.Command) end
+    }
+end
+
+-- **Notification Example**
+GUI:Notification{
+    Title = "AdonisK1ller",
+    Text = "Script by xz03404 on Discord",
+    Duration = 5
+}
