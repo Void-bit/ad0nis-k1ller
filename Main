@@ -1,0 +1,284 @@
+-- im gonna use orion library for this one ;)
+
+
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+OrionLib:MakeNotification({
+	Name = "ad0nisk1ller",
+	Content = "made by xz03404 on discord",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+local Window = OrionLib:MakeWindow({Name = "ad0nisK1ller Made by xz03404", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Abuse = Window:MakeTab({
+	Name = "Abusive Commands",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Abuse:AddButton({
+	Name = "Loud Music",
+	Callback = function()
+	  local prefix = ':'
+	  local command = 'music 16190757458 | :volume inf | :pitch 0.8'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+})
+  
+  Abuse:AddButton({
+	Name = "Server Crasher",
+	Callback = function()
+	  local prefix = ':'
+	  local command = 'repeat inf 0 clone all 50'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+  
+  
+  Abuse:AddButton({
+	Name = "Destruction",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'fire all | :m HAHAHAHAHAHA | :spook all | :clearadonisguis others true | :char all ScriptProbr | :re all | :name all HAHAHHAAHHA'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+	
+	
+  Abuse:AddButton({
+	Name = "Thermal and Punish",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'thermal all | :punish all'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+	
+	
+  Abuse:AddButton({
+	Name = "Incognito All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'incognito all | :time 120'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+
+Abuse:AddButton({
+	Name = "Unrank All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'unrank all'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+
+Abuse:AddButton({
+	Name = "UnLogs All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'clearadonisguis others true'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+
+
+Abuse:AddButton({
+	Name = "Dizzy All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'dizzy all 100'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+
+Abuse:AddButton({
+	Name = "Vibrate All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'vibrate all 100'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+	
+
+Abuse:AddButton({
+	Name = "Night",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'time 0'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+
+
+local Server = Window:MakeTab({
+	Name = "Server Commands",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+	Server:AddButton({
+	Name = "Server Lock",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'slock'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+  
+})
+
+Server:AddButton({
+	Name = "Ban All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'Ban all'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+	
+Server:AddButton({
+	Name = "Shutdown",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'sm Server being shutdown...'
+		      
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = ":sm Server Being Shutdown..." asd:ReleaseFocus(true)
+		wait(3)
+	wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = ":kick all Server Shutdown Complete." asd:ReleaseFocus(true)
+	end
+})
+
+Server:AddButton({
+	Name = "Broadcast",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'broadcast Join team m4telords today!'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+
+
+Server:AddButton({
+	Name = "Crash All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'gpucrash all'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+
+
+local Announcements = Window:MakeTab({
+	Name = "Announcement Commands",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Announcements:AddTextbox({
+	Name = "Custom Broadcast",
+	Default = "Input Message",
+	TextDisappear = true,
+	Callback = function(Value)
+		   wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = ":broadcast "..Value asd:ReleaseFocus(true)
+	end	  
+})
+
+Announcements:AddButton({
+	Name = "ServerMessage All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'sm DID YOU THINK YOU COULD ESCAPE FROM THE M4TELORDS?!'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+
+Announcements:AddButton({
+	Name = "Broadcast All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'broadcast SWEEP SWEEP SWEEP! script made by scriptprobr'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+
+Announcements:AddButton({
+	Name = "RBXNotify All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'rbxnotify all 3000 M4TELORDS NEVER GIVE UP THE THRONE'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+
+Announcements:AddButton({
+	Name = "MateLord Message All",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'cn M4TELORDS ZOOOOOM!!!'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+
+local Music = Window:MakeTab({
+	Name = "Sounds",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Music:AddButton({
+	Name = "N-Word Sound",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'music 5986485937 | :volume 100'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+
+Music:AddButton({
+	Name = "c00lkidd reborn theme",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'music 1847661821 | :volume 100'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+
+
+
+Music:AddButton({
+	Name = "2006 Ambience (horror)",
+	Callback = function()
+	  local prefix = ':'
+  	  local command = 'music 4504108959 | :volume 100'
+      wait() script:remove() local asd = game.Players.LocalPlayer.PlayerGui:FindFirstChild("PlayerList", true).Parent:FindFirstChildOfClass("TextBox")asd:CaptureFocus() asd.Text = prefix..command asd:ReleaseFocus(true)
+  	end    
+	
+})
+
+
+OrionLib:Init()
